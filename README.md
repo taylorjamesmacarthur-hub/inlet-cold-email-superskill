@@ -7,6 +7,8 @@
 **Built by MacArthur Media for Inlet Recruiting.**
 
 A meta-skill for Claude Code that writes cold emails that read like a person wrote them.
+Built on **Nick Saraev's four-part cold email formula**, wrapped in an intake interview,
+two editing passes, and a self-grader.
 
 It runs four passes, in order:
 
@@ -16,8 +18,12 @@ It runs four passes, in order:
 3. **Humanize** — 53-pattern AI-tell pass (bundled `humanizer` skill).
 4. **Grade** — script grading in-workspace, a manual checklist outside it.
 
-**New here?** [DIAGRAMS.md](DIAGRAMS.md) explains the whole thing in six pictures,
+**New here?** [DIAGRAMS.md](DIAGRAMS.md) explains the whole thing in six diagrams,
 with recruiting examples and no jargon.
+
+<p align="center">
+  <img src="assets/diagrams/01-pipeline.svg" width="880" alt="The pipeline">
+</p>
 
 ## Install
 

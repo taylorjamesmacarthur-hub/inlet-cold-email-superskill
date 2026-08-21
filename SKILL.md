@@ -12,6 +12,13 @@ user-invocable: true
 
 *Built by MacArthur Media for Inlet Recruiting.*
 
+**The writing framework is Nick Saraev's four-part cold email formula.** Do not
+substitute another structure, another order, or another CTA style. The formula,
+its confirmed rules, and its reference templates are recorded in
+[`SPEC.md`](SPEC.md) with confidence labels — CONFIRMED lines are verified by two
+independent readings of the source course, SINGLE SOURCE lines are not. When a
+draft and this skill disagree, `SPEC.md` wins.
+
 One skill, four moves, in order. Do not skip a move.
 
     0. Intake      — industry, role, business type. Never guess these.
@@ -21,7 +28,7 @@ One skill, four moves, in order. Do not skip a move.
     4. Grade       — saraev_grade.py + copy_lint.py, or the manual checklist.
 
 **New here, or explaining this to someone who isn't technical?** Read
-[DIAGRAMS.md](DIAGRAMS.md) — six pictures, recruiting examples, no jargon.
+[DIAGRAMS.md](DIAGRAMS.md) — six diagrams, recruiting examples, no jargon.
 
 Before writing, answer in one sentence: what is the ONE thing they should do
 after reading? Reply, view an asset, or book a call. If you cannot say it in one
@@ -138,6 +145,29 @@ One specific ask, with a specific time.
 - Short, casual, slightly imperfect. A small typo or a "sent from my iPhone"
   reads more human than clean copy.
 
+### The conversion model (Saraev, CONFIRMED)
+
+    conversion  ∝  (perceived ROI × trust) / friction
+
+A way to think, not arithmetic to perform. Use it to diagnose a dead draft:
+
+- **ROI too low or too vague?** → Part 3. Quantify it, time-bound it, size it to
+  their business type.
+- **Trust too low?** → Part 2. Better client name, tighter in-group match, a real
+  number instead of an adjective.
+- **Friction too high?** → Part 4. Fewer steps, a named time, a one-click path,
+  and the risk moved onto you.
+
+Every fix lives in one of the four parts. If a change does not raise ROI, raise
+trust, or cut friction, do not make it.
+
+### Reference templates
+
+Three verbatim Saraev templates are in [`SPEC.md`](SPEC.md) under "Reference
+templates" — the landing-page offer, the retail acquisition offer, and the
+20-meetings offer. Read them before writing a new template for the rotation. Copy
+their *shape*, never their words; the wording is tied to that sender and that list.
+
 ---
 
 ## Step 2 — Persuasion pass
@@ -155,6 +185,10 @@ these five carry weight — check each, fix in place:
 
 Deeper frameworks (PAS, hooks, transitions) are in
 `reference/copywriting/references/`. Load only if the draft is failing.
+
+**This pass edits inside the four parts. It never restructures them.** The
+copywriting skill is written for landing pages; where it conflicts with Saraev —
+page-length copy, multiple CTAs, feature sections, "we" voice — Saraev wins.
 
 ---
 
@@ -230,8 +264,9 @@ the four parts as blank-line separated blocks.
 
 ## Provenance
 
-Four-part frame built from Nick Saraev's "Cold Email Copywriting & Outreach Full
-Course 2026" via the youtube-to-agent pipeline. `SPEC.md` and `notes/` carry the
+The four-part frame, the conversion model, the frame rules, and the iteration
+rules are Nick Saraev's, from "Cold Email Copywriting & Outreach Full Course
+2026", extracted via the youtube-to-agent pipeline. `SPEC.md` and `notes/` carry the
 confidence labels — CONFIRMED lines are verified by two independent readings,
 SINGLE SOURCE lines are not. Humanizer and copywriting passes are bundled from
 their standalone skills under `reference/`.
