@@ -1,4 +1,10 @@
-# cold-email-copy
+<p align="center">
+  <img src="assets/macarthur-media-logo.png" width="300" alt="MacArthur Media">
+</p>
+
+# inlet-cold-email-superskill
+
+**Built by MacArthur Media for Inlet Recruiting.**
 
 A meta-skill for Claude Code that writes cold emails that read like a person wrote them.
 
@@ -10,16 +16,25 @@ It runs four passes, in order:
 3. **Humanize** — 53-pattern AI-tell pass (bundled `humanizer` skill).
 4. **Grade** — script grading in-workspace, a manual checklist outside it.
 
+**New here?** [DIAGRAMS.md](DIAGRAMS.md) explains the whole thing in six pictures,
+with recruiting examples and no jargon.
+
 ## Install
 
-    git clone <this repo> ~/.claude/skills/cold-email-copy
+    git clone <this repo> ~/.claude/skills/inlet-cold-email-superskill
 
-Then `/cold-email-copy selling X to Y` in Claude Code.
+Then `/inlet-cold-email-superskill selling X to Y` in Claude Code.
 
 ## Layout
 
 - `SKILL.md` — the skill itself
+- `DIAGRAMS.md` — six plain-English diagrams, recruiting examples
+- `assets/` — MacArthur Media brand marks
 - `reference/humanizer/` — bundled humanizer skill
 - `reference/copywriting/` — bundled copywriting skill
 - `reference/psychology.md` — the persuasion principles underneath
 - `SPEC.md`, `notes/` — source notes with confidence labels
+
+---
+
+<p align="center"><sub>MacArthur Media · built for Inlet Recruiting</sub></p>

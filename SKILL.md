@@ -1,12 +1,16 @@
 ---
-name: cold-email-copy
+name: inlet-cold-email-superskill
 description: Meta-skill for cold email. Interviews you for industry, role, and business type, writes the four-part outbound email (personalization, who am I, offer, CTA), runs a persuasion pass and a humanizer pass so it does not read like AI, then grades it. Use when asked to write a cold email, draft outreach, personalize a sequence, fix a cold email that is not getting replies, grade or critique outbound copy, or build a new template for the cold rotation.
 argument-hint: "<what you're selling and to whom> | <path to an email to grade>"
 allowed-tools: Bash, Read, Write, Edit, Grep, AskUserQuestion
 user-invocable: true
 ---
 
-# cold-email-copy
+# inlet-cold-email-superskill
+
+<img src="assets/macarthur-mark.jpg" width="80" align="right" alt="MacArthur Media">
+
+*Built by MacArthur Media for Inlet Recruiting.*
 
 One skill, four moves, in order. Do not skip a move.
 
@@ -15,6 +19,9 @@ One skill, four moves, in order. Do not skip a move.
     2. Persuade    — conversion pass (reference/copywriting).
     3. Humanize    — AI-tell pass (reference/humanizer).
     4. Grade       — saraev_grade.py + copy_lint.py, or the manual checklist.
+
+**New here, or explaining this to someone who isn't technical?** Read
+[DIAGRAMS.md](DIAGRAMS.md) — six pictures, recruiting examples, no jargon.
 
 Before writing, answer in one sentence: what is the ONE thing they should do
 after reading? Reply, view an asset, or book a call. If you cannot say it in one
